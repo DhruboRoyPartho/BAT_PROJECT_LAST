@@ -36,8 +36,8 @@ char homeKeyLabel[4][7] = {"MANUAL", "AUTO", "PHASE", "RESET"};
 #define CUSTOM_LIGHT_BLUE  tft.color565(255-248, 255-79, 255-79)  // Light Blue
 
 // Relay pin
-#define relay1 4
-#define relay2 15
+#define relay1 15
+#define relay2 4
 
 uint16_t homeKeyColor[4] = {CUSTOM_PURPLE, CUSTOM_LIGHT_PINK, CUSTOM_LIGHT_RED, CUSTOM_LIGHT_BLUE};
 
